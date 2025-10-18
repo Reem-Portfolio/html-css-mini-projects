@@ -1,0 +1,247 @@
+body{
+    font-family: "Inter", sans-serif;
+}
+
+
+.p-text{
+    line-height: 42.12px;
+    font-size: 24px;
+    font-weight: 500;
+    color:#545454;
+}
+.h1-text{
+    padding: 10px;
+    font-weight: 500;
+    color: #1F1F1F;
+    font-size: 313px;
+    line-height: 84.72px;
+}
+.card-text h3{
+    font-weight: 400;
+    font-size: 70px;
+    text-align: center;
+    line-height: 84.72px;
+}
+.card-text p{
+    font-weight: 400;
+    font-size: 22px;
+    align-items: center;
+    
+}
+
+.line-container {
+    display: flex;
+    align-items: center;
+    width: 100%;
+}
+.line {
+    height: 2px;
+    background-color: #000;
+}
+.text {
+    margin: 0 10px;
+    white-space: nowrap;
+}
+.line-10 {
+    flex: 0 0 8%;
+}
+
+.package h3{
+    font-weight: 600;
+    font-size: 30px;
+    line-height: 36.31px;
+}
+.package p{
+    font-size: 20px;
+    line-height: 36.34px;
+
+}
+
+.text-design h1{
+    font-weight: 400;
+    font-size: 58px;
+}
+.text-design p{
+    font-weight: 500;
+    font-size: 24px;
+    color: #545454;
+    padding-top: 12px;
+}
+
+.steps h2{
+    font-weight: 600;
+    font-size: 48px;
+    line-height: 70.19px;
+}
+
+.line-h{
+    width: 2px; 
+    height: 100px; 
+    background-color: #9B9B9B; 
+    margin:20px;
+}
+
+
+.icon {
+    background-color: black;
+    border-radius: 50%; 
+    display: inline-flex;
+    justify-content: center;
+    align-items: center;
+    width: 50px; 
+    height: 50px; 
+}
+
+.icon i {
+    color: white;
+   
+}
+.steps{
+    margin: auto;
+    margin-top: 9px;
+}
+.steps .step1{
+    padding-top: 15px;
+}
+.step1 p{
+    font-weight: 500;
+    font-size: 20px;
+    line-height: 39.65px;
+    color: #545454;
+}
+
+.customers h2{
+    font-weight: 600;
+    font-size: 58px;
+    line-height: 70.19px;
+}
+
+.customer-card{
+    
+    top: 218px;
+    left: 5px;
+}
+
+.person img {
+    
+    border-radius: 50%; 
+    margin-bottom: 15px;
+}
+
+.cards{
+    width: 600px;
+    height: 600px;
+    border-radius: 4px;
+}
+
+
+.sub-text h1{
+    font-size: 80px;
+   
+    text-align: center;
+    font-weight: 400;
+}
+.sub-text p{
+    font-size: 24px;
+    text-align: center;
+    font-weight: 500;
+}
+
+
+.contact {
+    background-color: #000; 
+    color: #fff; 
+}
+
+.contact .navbar-brand {
+    color: #fff; 
+    font-weight: bold; 
+}
+
+.contact ul {
+    list-style-type: none; 
+    padding: 0;
+}
+
+.contact ul li {
+    margin-bottom: 10px; 
+}
+
+.contact .social {
+    display: flex;
+    gap: 10px; 
+}
+
+.contact .social i {
+    font-size: 1.5rem; 
+    color: #fff; 
+}
+
+
+form {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    gap: 10px;
+    position: relative;
+    margin: 20px auto;
+    max-width: 100%;
+    
+}
+
+
+#add-button {
+    background-color: black;
+    border: none;
+    color: white;
+    font-size: 16px;
+    font-weight: 600;
+    padding: 10px 20px;
+    cursor: pointer;
+    border-radius: 5px;
+    display: inline-flex;
+    align-items: center;
+    justify-content: center;
+}
+
+
+#todo-input {
+    box-sizing: border-box;
+    padding: 12px 20px;
+    width: 500px;
+    background: none;
+    border: 2px solid black;
+    border-radius: 5px;
+    font: inherit;
+}
+
+
+
+
+
+@media (max-width: 768px) {
+    @media (max-width: 768px) {
+        .customer-card {
+            position: static;
+            width: 100%; 
+            margin-bottom: 20px; 
+            top: auto; 
+            left: auto; 
+            display: flex;
+            flex-direction: column;
+            align-items: center;
+        }
+        .cards {
+            width: 100%; 
+            height: auto; 
+            margin: 0 auto; 
+        }
+        .sub-text h1{
+            font-size: 40px;
+        }
+        .sub-text p{
+            font-size: 20px;
+        }
+    }
+}
+

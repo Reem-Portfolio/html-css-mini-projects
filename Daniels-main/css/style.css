@@ -1,0 +1,561 @@
+body {
+    font-family: "Nunito", sans-serif;
+}
+
+h1,
+h2,
+h3,
+h4,
+h5,
+h6 {
+    font-family: "Montserrat", sans-serif;
+}
+
+p {
+    font-family: "Poppins", sans-serif;
+}
+
+html {
+    scroll-padding-top: 86px;
+}
+
+
+.logo {
+    padding-left: 50px;
+}
+
+.ul-link {
+    padding-right: 55px;
+}
+
+.header {
+    background-image: linear-gradient(rgba(0, 0, 0, 0.6), rgba(0, 0, 0, 0.6)), url(../image/asset\ 10.jpeg);
+    height: 100vh;
+    background-position: top center;
+    background-size: cover;
+    background-repeat: no-repeat;
+}
+
+.header h1 b:after {
+    content: "|";
+    animation-name: typing;
+    animation-duration: 8s;
+    animation-iteration-count: infinite;
+}
+
+@keyframes typing {
+    0% {
+        content: "|";
+    }
+
+    1% {
+        content: "|";
+    }
+
+    2% {
+        content: "L|";
+    }
+
+    3% {
+        content: "La|";
+    }
+
+    4% {
+        content: "Lar|";
+    }
+
+    5% {
+        content: "Larr|";
+    }
+
+    6% {
+        content: "Larry|";
+    }
+
+    7% {
+        content: "Larry D|";
+    }
+
+    8% {
+        content: "Larry Da|";
+    }
+
+    9% {
+        content: "Larry Dan|";
+    }
+
+    10% {
+        content: "Larry Dani|";
+    }
+
+    11% {
+        content: "Larry Dais|";
+    }
+
+    12% {
+        content: "Larry Dai|";
+    }
+
+    13% {
+        content: "Larry Da|";
+    }
+
+    14% {
+        content: "Larry D|";
+    }
+
+    15% {
+        content: "Larry |";
+    }
+
+    16% {
+        content: "Larry|";
+    }
+
+    17% {
+        content: "Larr|";
+    }
+
+    18% {
+        content: "Lar|";
+    }
+
+    19% {
+        content: "La|";
+    }
+
+    20% {
+        content: "L|";
+    }
+
+    21% {
+        content: "|";
+    }
+
+    22% {
+        content: "|";
+    }
+
+    23% {
+        content: "D|";
+    }
+
+    24% {
+        content: "De|";
+    }
+
+    25% {
+        content: "Dev|";
+    }
+
+    26% {
+        content: "Deve|";
+    }
+
+    27% {
+        content: "Devel|";
+    }
+
+    28% {
+        content: "Develo|";
+    }
+
+    29% {
+        content: "Develop|";
+    }
+
+    30% {
+        content: "Develope|";
+    }
+
+    31% {
+        content: "Developer|";
+    }
+
+    32% {
+        content: "Develope|";
+    }
+
+    33% {
+        content: "Develop|";
+    }
+
+    34% {
+        content: "Develo|";
+    }
+
+    35% {
+        content: "Devel|";
+    }
+
+    36% {
+        content: "Deve|";
+    }
+
+    37% {
+        content: "Dev|";
+    }
+
+    38% {
+        content: "De|";
+    }
+
+    39% {
+        content: "D|";
+    }
+
+    40% {
+        content: "|";
+    }
+
+    41% {
+        content: "|";
+    }
+
+    42% {
+        content: "D|";
+    }
+
+    43% {
+        content: "De|";
+    }
+
+    44% {
+        content: "Des|";
+    }
+
+    45% {
+        content: "Des|";
+    }
+
+    46% {
+        content: "Desi|";
+    }
+
+    47% {
+        content: "Desig|";
+    }
+
+    48% {
+        content: "Desgin|";
+    }
+
+    49% {
+        content: "Designe|";
+    }
+
+    50% {
+        content: "Designer|";
+    }
+
+    51% {
+        content: "Designe|";
+    }
+
+    52% {
+        content: "Design|";
+    }
+
+    53% {
+        content: "Desig|";
+    }
+
+    54% {
+        content: "Desi|";
+    }
+
+    55% {
+        content: "Des|";
+    }
+
+    56% {
+        content: "De|";
+    }
+
+    57% {
+        content: "D|";
+    }
+
+    58% {
+        content: "|";
+    }
+
+}
+
+
+.icons-social .icon {
+    background-color: rgba(0, 0, 0, 0.347);
+    font-size: 15px;
+    width: 35px;
+    height: 35px;
+    border-radius: 50%;
+}
+
+.icons-social {
+    display: flex;
+    justify-content: center;
+    text-align: center;
+    cursor: pointer;
+    line-height: 35px;
+}
+
+.image-about {
+    /* background-color: brown; */
+    /* margin-bottom: 30px; */
+    position: relative;
+    left: 35%;
+}
+
+.image-about img {
+    /* width: 100%; */
+    width: 65%;
+    position: relative;
+
+}
+
+.image-about img::after {
+    content: "";
+    background-image: url(../image/asset\ 11.png);
+    background-repeat: repeat;
+    width: 80%;
+    height: 80%;
+    z-index: -1;
+    position: absolute;
+    left: 0;
+    bottom: -30px;
+
+}
+
+.col-md-7 .sub-title {
+    letter-spacing: 2px;
+}
+
+.person .test {
+    width: 100px;
+    border-radius: 50%;
+    height: 100px;
+    transform: translateY(-50);
+
+}
+
+.testimonials .carousel-indicators [data-bs-target] {
+    background-color: rgb(88, 86, 86);
+    width: 10px;
+    height: 10px;
+    border-radius: 50%;
+    transition: all 0.3s;
+}
+
+.testimonials .carousel-indicators [data-bs-target]:hover {
+    color: black;
+    opacity: 1;
+}
+
+/* .text-team h3::after{
+    content: "";
+    width: 100%;
+    height: 80px;
+    background-image: url(../image/asset\ 11.png);
+    background-repeat: repeat;
+    z-index: -1;
+    position: absolute;
+    bottom: -10px;
+    left: 0;
+} */
+.text-dots {
+    width: 206px;
+    height: 30px;
+    background-image: url(../image/asset\ 11.png);
+    background-repeat: repeat;
+    position: absolute;
+    left: 42%;
+    bottom: 55px;
+    z-index: -1;
+}
+
+.icons-contact .icon-contact {
+    background-color: #f4f4f4;
+    font-size: 15px;
+    width: 60px;
+    height: 60px;
+    border-radius: 50%;
+    transition: all 0.3s;
+}
+
+.icons-contact .icon-contact i {
+    margin-top: 15px;
+}
+
+.icons-contact {
+    margin-bottom: 15px;
+    display: flex;
+    justify-content: center;
+    text-align: center;
+    line-height: 60px;
+}
+
+.col-md-4:hover .icon-contact {
+    color: #eee;
+    background-color: #1c1c1c;
+}
+
+.contact form {
+    width: 100%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    position: relative;
+    left: 20px;
+}
+
+form .col-md-6 input, form .col-md-12 textarea {
+    background-color: #f4f4f4;
+}
+
+
+form .col-md-12 .button {
+    width: 150px;
+    border-radius: 5px;
+    font-size: 13px;
+    color: #eee;
+    background: #1c1c1c;
+    transition: all 0.3s;
+}
+
+form .col-md-12 .button:hover {
+    border: 1px solid #1c1c1c;
+    color: #1c1c1c;
+    background: white;
+}
+
+.buttons .button-cv {
+    width: 150px;
+    border-radius: 5px;
+    font-size: 13px;
+    color: #eee;
+    background: #1c1c1c;
+    transition: all 0.3s;
+}
+
+.buttons .button-cv:hover {
+    border: 1px solid #1c1c1c;
+    color: #1c1c1c;
+    background: transparent;
+}
+
+.buttons .button-me {
+    margin-left: 5px;
+    font-size: 13px;
+    width: 150px;
+    border-radius: 5px;
+    border: 1px solid #1c1c1c;
+    color: #1c1c1c;
+    background: transparent;
+    transition: all 0.3s;
+}
+
+.buttons .button-me:hover {
+    border: 1px solid #1c1c1c;
+    color: #eee;
+    background: #1c1c1c;
+}
+
+.layer {
+    top: 0;
+    left: 0;
+    right: 0;
+    bottom: 0;
+    opacity: 0;
+    margin: 5px;
+    background-color: white;
+    transition: 0.3s all;
+}
+
+.layer .inner-layer h6 {
+    color: #1c1c1c;
+}
+
+.inner-layer {
+    /* transform: translateX(200px); */
+    transition: 0.4s all;
+}
+
+
+.col-inner img {
+    width: 80%;
+    transition: 0.3s all;
+}
+
+.col-inner:hover .layer {
+    opacity: 1;
+}
+
+.col-inner:hover img {
+    scale: 1.1;
+}
+
+.col-inner:hover .inner-layer {
+    /* transform: translateY(0); */
+    scale: 1.1;
+}
+
+.inner-layer .icons-social .icon {
+    background-color: #1c1c1c;
+    scale: 1.1;
+    transition: all 0.4s;
+}
+
+.inner-layer .icons-social .icon:hover {
+    background-color: white;
+    color: #1c1c1c;
+}
+
+/* card rotate and scale */
+
+
+/* .card  .layer {
+    top: 0;
+    left: 0;
+    right: 0;
+    bottom: 0;
+    opacity: 0;
+    margin: 5px;
+    background-color: white;
+    transition: 0.3s all;
+}
+.card .col-inner:hover .layer {
+    transform: rotateY(180deg) scale(0.5,0.5);
+} */
+
+/* services */
+
+.icons-social .icon {
+    background-color: rgba(0, 0, 0, 0.347);
+    font-size: 15px;
+    width: 35px;
+    height: 35px;
+    border-radius: 50%;
+}
+
+.icons-social {
+    display: flex;
+    justify-content: center;
+    text-align: center;
+    cursor: pointer;
+    line-height: 35px;
+}
+.card .icon{
+    background-color: #f7f7f7;
+    font-size: 15px;
+    width: 70px;
+    height: 70px;
+    border-radius: 50%;
+}
+.card .icon i{
+    padding-top: 5px;
+}
+.card:hover .icon{
+    color: #eee;
+    background: #1c1c1c;
+    
+}
