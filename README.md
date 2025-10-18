@@ -23,3 +23,5 @@ or run it locally in your browser after downloading.
 - Responsive Design (Flexbox, Grid)
 # html-css-mini-projects
 Mini projects built with HTML &amp; CSS
+---
+✨ Created with love by **Reem Haitham Ahmed Helmy**
